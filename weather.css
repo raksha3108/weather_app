@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+    color:aliceblue;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(weatherappproject.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+}
+.headercontent{
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.headercontent h1{
+    font-size: 60px;
+    color: rgba(235, 161, 1, 0.865);
+}
+.headercontent p{
+    font-size: 30px;
+    color:rgb(231, 222, 127);
+}
+.but1{
+    font-size: 25px;
+    background-color: transparent;
+    color:rgb(173, 206, 215);
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+
+    }
+    @media (max-width: 600px) {
+        .headercontent {
+            padding: 1em;
+        }
+    
+        .headercontent h1 {
+            font-size: 1.5em;
+        }
+    
+        .headercontent p {
+            font-size: 1em;
+        }
+    
+        .but1 {
+            font-size: 0.8em;
+            padding: 8px 16px;
+        }
+    }
